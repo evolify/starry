@@ -5,6 +5,7 @@ local hsl = lush.hsl
 
 local theme = lush(function()
   return {
+    NvimTreeNormal {bg = "none"},
     NvimTreeCursorLine {main.CursorLine},
     NvimTreeRootFolder {fg = main.Normal.fg, gui = "bold"},
 
